@@ -11,7 +11,7 @@ Pedido{
     public int  fun_id ;
     public Funcionario funcionario FK;
     public int  pid  ;
-    public Pedido pedido FK;
+    public Produto produto FK;
     public int  pqtde;
 }
 
