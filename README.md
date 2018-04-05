@@ -8,11 +8,7 @@ Fornecedor {
 
 Pedido{
     public long id ;
-    public int  fun_id ;
     public Funcionario funcionario FK;
-    public int  pid  ;
-    public Produto produto FK;
-    public int  pqtde;
 }
 
 Produto {
@@ -20,13 +16,12 @@ Produto {
     public string Descricao;
     public string tipo ;
     public int qtde ;
+    public Fornecedor fornecedor;
 }
 
 PedidoProduto {
     public long id ;
-    public long Pedidoid ;
-    public Pedido pedido FK;
-    public long Produtoid ;   
+    public Pedido pedido FK;  
     public Produto produto FK;
     public int  pqtde ;
 }
