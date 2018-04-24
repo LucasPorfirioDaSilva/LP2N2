@@ -1,0 +1,10 @@
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\bin\Debug\netcoreapp2.0\lanchonete.deps.json
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\bin\Debug\netcoreapp2.0\lanchonete.runtimeconfig.json
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\bin\Debug\netcoreapp2.0\lanchonete.runtimeconfig.dev.json
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\bin\Debug\netcoreapp2.0\lanchonete.dll
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\bin\Debug\netcoreapp2.0\lanchonete.pdb
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\obj\Debug\netcoreapp2.0\lanchonete.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\obj\Debug\netcoreapp2.0\lanchonete.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\obj\Debug\netcoreapp2.0\lanchonete.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\obj\Debug\netcoreapp2.0\lanchonete.dll
+C:\Users\Lucas\Desktop\LP2\LP2N2\lanchonete\obj\Debug\netcoreapp2.0\lanchonete.pdb

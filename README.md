@@ -1,11 +1,11 @@
 # LP2N2
-
-Telefone {
+// XX = criar model e controller.
+Telefone { XX
     public long ID;
     public string Numero;
 }
 
-Endereço {
+Endereço { XX
     public long ID;
     public string Rua;
     public string Cidade;
@@ -15,50 +15,58 @@ Endereço {
     public string Referencia;
 }
 
+Filial { XX
+    public long ID;
+    public Endereço Endereço;
+    public Telefone Telefone;
+}
+
+// conferir todas os models do projeto.
+
 Fornecedor {
     public long ID;
     public string Nome;
-    public Telefone telefone;
-}
-
-Filial {
-    public long ID;
-    public Endereço endereço;
-    public Telefone telefone;
+    public Telefone Telefone;
+    public Endereço Endereço;
 }
 
 Cliente {   
     public long ID;
     public string Nome;
-    public Telefone telefone;
-    public Endereço endereço;
+    public int TelefoneId;
+    public int EnderecoId;
+    public Telefone Telefone;
+    public Endereço Endereço;
 }
 
 Pedido{
-    public long id ;
-    public Funcionario funcionario FK;
-    public Cliente cliente FK;
-    public Filial filial FK;
+    public long Id ;
+    public Funcionario Funcionario FK;
+    public Cliente Cliente FK;
+    public Filial Filial FK;
 }
 
 Produto {
     public long Id;
     public string Descricao;
-    public string tipo ;
-    public int qtde ;
-    public Fornecedor fornecedor;
+    public string Tipo ;
+    public double Preco;
+    public int Qtde ;
+    public Fornecedor Fornecedor FK;
 }
 
-PedidoProduto {
-    public long id ;
-    public Pedido pedido FK;  
-    public Produto produto FK;
-    public int  pqtde ;
+DetalhesPed {
+    public long Id ;
+    public int Pedidoid;
+    public int Produtoid;
+    public Pedido Pedido FK;  
+    public Produto Produto FK;
+    public int  Pqtde ;
 }
 
 Funcionario {
     public long Id ;
     public string Nome ;
-    public Endereço endereço;
-    public Telefone telefone ;
+    public Endereço Endereço;
+    public Telefone Telefone ;
 }
